@@ -169,7 +169,7 @@ class WindowsDeviceInfo implements BaseDeviceInfo {
       'digitalProductId': digitalProductId,
       'displayVersion': displayVersion,
       'editionId': editionId,
-      'installDate': installDate,
+      'installDate': installDate.millisecondsSinceEpoch,
       'productId': productId,
       'productName': productName,
       'registeredOwner': registeredOwner,
